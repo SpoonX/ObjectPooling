@@ -1,3 +1,4 @@
+using Library.Pooling;
 using UnityEngine;
 
 namespace Game.Shower
@@ -6,7 +7,7 @@ namespace Game.Shower
     {
         private void OnCollisionEnter(Collision other)
         {
-            Destroy(other.gameObject);
+            PoolManager.Instance.Despawn(other.gameObject);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using Library.Pooling;
 using UnityEngine;
 
 namespace Game.Shower
@@ -11,8 +12,12 @@ namespace Game.Shower
 
         public Transform container;
 
+        private Pool _pool;
+
         void Start()
         {
+            _pool = PoolManager.Instance.GetPool(prefab);
+
             StartCoroutine(SpawnDrops());
         }
 
@@ -22,7 +27,7 @@ namespace Game.Shower
 
             while (true)
             {
-                Instantiate(prefab, transform.position, Quaternion.identity, container);
+                _pool.Spawn(transform.position, Quaternion.identity, container);
 
                 yield return interval;
             }

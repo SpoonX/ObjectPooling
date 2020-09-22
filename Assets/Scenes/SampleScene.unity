@@ -190,6 +190,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (3)
@@ -263,6 +267,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (8)
@@ -346,6 +354,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (20)
@@ -419,6 +431,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (12)
@@ -492,6 +508,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (4)
@@ -605,6 +625,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (23)
@@ -678,6 +702,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (5)
@@ -799,6 +827,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (10)
@@ -877,12 +909,65 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (22)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+--- !u!1 &718675989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 718675991}
+  - component: {fileID: 718675990}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &718675990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718675989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8180130400e042aa9bc2d1b843fcbe2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolConfigs:
+  - name: Water drop
+    maintainLink: 1
+    prefab: {fileID: 7616170162789981511, guid: 281c71ba16c4c42bcbe13048968849df, type: 3}
+    size: 100
+    preload: 100
+--- !u!4 &718675991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718675989}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4174213, y: 2.9114635, z: 0.25550264}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &726340067
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -950,6 +1035,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (1)
@@ -1023,6 +1112,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (17)
@@ -1101,6 +1194,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (19)
@@ -1174,6 +1271,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (2)
@@ -1375,6 +1476,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (11)
@@ -1448,6 +1553,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (18)
@@ -1526,6 +1635,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (6)
@@ -1599,6 +1712,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (21)
@@ -1672,6 +1789,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (24)
@@ -1745,6 +1866,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (16)
@@ -1823,6 +1948,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (7)
@@ -1901,6 +2030,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (15)
@@ -1974,6 +2107,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (14)
@@ -2233,6 +2370,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (9)
@@ -2548,6 +2689,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole (13)
@@ -2621,6 +2766,10 @@ PrefabInstance:
       propertyPath: container
       value: 
       objectReference: {fileID: 330649136}
+    - target: {fileID: 2040278217176710781, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
+      propertyPath: dropsPerSecond
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6991287075333133485, guid: d7d795d315d664c9f8dd4bd057cd6cde, type: 3}
       propertyPath: m_Name
       value: Hole
